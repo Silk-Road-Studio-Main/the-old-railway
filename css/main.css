@@ -11512,3 +11512,20 @@ section.hero .carousel-inner {
     min-height: 350px;
   }
 }
+
+section.hero .carousel-caption {
+  text-align: left;
+  right: auto;
+  left: 2rem;
+}
+
+section.hero .carousel-caption a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media screen and (min-width: 768px) {
+  section.hero .carousel-caption {
+    bottom: 10rem;
+  }
+}

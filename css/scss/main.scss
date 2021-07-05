@@ -1,6 +1,5 @@
 @import "custom";
 
-
 //HERO SECTION
 section.hero {
     width: 100%;
@@ -33,4 +32,26 @@ section.hero {
               }
         }
    
+    }
+
+    section.featured-category {
+        .card {
+            border: none;
+        }
+        
+    }
+
+    section.call-to-action-home {
+      height: 60vh;
+      background: url(../../img/bg-call-to-action.jpg) no-repeat center;
+      background-size: cover;
+
+    }
+
+    section.call-to-action-home {
+        .call-to-action-home_box {
+            background: #fff;
+            opacity: 0.8;
+            margin: 0 auto;
+        }
     }

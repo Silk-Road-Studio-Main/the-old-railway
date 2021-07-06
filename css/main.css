@@ -11551,3 +11551,12 @@ section.call-to-action-home .call-to-action-home_box {
   opacity: 0.8;
   margin: 0 auto;
 }
+
+section.popular-categories .col-md-6 {
+  position: relative;
+}
+
+section.popular-categories .col-md-6 .inner-caption {
+  position: absolute;
+  top: 30%;
+}

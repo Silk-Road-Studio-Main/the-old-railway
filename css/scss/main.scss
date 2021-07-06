@@ -40,6 +40,7 @@ section.hero {
    
     }
 
+    // FIRST FEATURED CATEGORY
     section.featured-category {
         .card {
             border: none;
@@ -47,6 +48,7 @@ section.hero {
         
     }
 
+    // CALL TO ACTION SECTION
     section.call-to-action-home {
       height: 60vh;
       background: url(../../img/bg-call-to-action.jpg) no-repeat center;
@@ -60,4 +62,19 @@ section.hero {
             opacity: 0.8;
             margin: 0 auto;
         }
+    }
+
+    // POPULAR CATEGORIES
+    section.popular-categories {
+        .col-md-6 {
+            position: relative;
+
+            .inner-caption {
+                position: absolute;
+                top: 30%;
+            }
+        }
+
+       
+      
     }

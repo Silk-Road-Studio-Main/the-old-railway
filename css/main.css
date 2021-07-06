@@ -11498,6 +11498,12 @@ fieldset:disabled .btn {
   }
 }
 
+body::before {
+  display: block;
+  content: "";
+  height: 75px;
+}
+
 section.hero {
   width: 100%;
 }
@@ -11509,7 +11515,7 @@ section.hero .carousel-inner {
 @media screen and (min-width: 768px) {
   section.hero .carousel-item {
     height: 80vh;
-    min-height: 350px;
+    min-height: 450px;
   }
 }
 
@@ -11536,7 +11542,7 @@ section.featured-category .card {
 
 section.call-to-action-home {
   height: 60vh;
-  background: url(../img/bg-call-to-action.jpg) no-repeat center;
+  background: url(../../img/bg-call-to-action.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -11544,4 +11550,13 @@ section.call-to-action-home .call-to-action-home_box {
   background: #fff;
   opacity: 0.8;
   margin: 0 auto;
+}
+
+section.popular-categories .col-md-6 {
+  position: relative;
+}
+
+section.popular-categories .col-md-6 .inner-caption {
+  position: absolute;
+  top: 30%;
 }

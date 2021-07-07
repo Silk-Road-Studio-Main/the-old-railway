@@ -1,5 +1,10 @@
 @import "custom";
 
+body::before {
+    display: block;
+    content: "";
+    height: 75px;
+}
 
 //HERO SECTION
 section.hero {
@@ -12,8 +17,64 @@ section.hero {
     @media screen and (min-width: 768px) {
         .carousel-item {
             height: 80vh;
-            min-height: 350px;
+            min-height: 450px;
           }
     }
    
-}
+        .carousel-caption {
+            text-align: left;
+            right: auto;
+            left: 2rem;
+
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            .carousel-caption {
+                bottom: 10rem;
+              }
+        }
+   
+    }
+
+    // FIRST FEATURED CATEGORY
+    section.featured-category {
+        .card {
+            border: none;
+        }
+        
+    }
+
+    // CALL TO ACTION SECTION
+    section.call-to-action-home {
+      height: 60vh;
+      background: url(../../img/bg-call-to-action.jpg) no-repeat center;
+      background-size: cover;
+
+    }
+
+    section.call-to-action-home {
+        .call-to-action-home_box {
+            background: #fff;
+            opacity: 0.8;
+            margin: 0 auto;
+        }
+    }
+
+    // POPULAR CATEGORIES
+    section.popular-categories {
+        .col-md-6 {
+            position: relative;
+
+            .inner-caption {
+                position: absolute;
+                top: 30%;
+            }
+        }
+
+       
+      
+    }

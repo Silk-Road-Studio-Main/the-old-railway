@@ -14,14 +14,16 @@
 
     <!-- Vendor CSS Files -->
     <link rel="stylesheet" href="vendors/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
 
     <!-- Core CSS File -->
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <!-- Header -->
-    <div class="container">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
+    <div class="container-fuild fixed-top bg-light">
+        <header class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3">
           <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
             <img src="img/logo-black.png" width="50" class="img-fluid" alt="logo">
           </a>
@@ -43,8 +45,8 @@
       <!-- ./Header -->
 
       <!-- Hero Slider -->
-      <section class="hero">
-        <div id="carouselMain" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <section class="hero mb-2">
+        <div id="carouselMain" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -54,6 +56,12 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="img/slider/hero-1-lg-copy.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption">
+                <p class="fw-bold text-warning">Amazing Limited Time Sale</p>
+                <h1 class="display-5 fw-bold lh-1 mb-3">CAFE' 2021</h1>
+                <h1 class="display-5 fw-bold lh-1 mb-3">limited edition</h1>
+                <a href="#" class="lead fw-bold">Shop the Category ></a>
+              </div>
             </div>
   
             <div class="carousel-item">
@@ -65,16 +73,267 @@
           </div>
         </div>
 
-        <div class="slogan p-3">
+        <div class="slogan p-3 bg-light">
           <div class="text-center lead"><i class="bi bi-handbag-fill pe-1"></i> Save 50% shopping with us: exclusive gifts and discounts on selected products for cash or credit. <a href="#">See Details</a></div>
         </div>
       </section>
    <!-- ./Hero Slider -->
    
-  
+  <!-- Feature Section One -->
+  <section class="featured-category py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <div class="section-caption">
+            <p class="fw-bold text-warning">Collection AW 2021</p>
+            <h2 class="display-6 fw-bold lh-1 mb-3">Cotton textured sweaters</h1>
+            <h2 class="display-6 fw-bold lh-1 mb-3">from £14.99</h1>
+            <a href="#" class="btn btn-dark">Go Shopping ></a>
+          </div>
+        </div>
+        <div class="col-md-4" style="padding: 5rem">
+          <div class="card">
+            <img src="img/home-sec-one-category/1.jpg" class="card-img-top" alt="product 1">
+            <div class="card-body">
+              <div class="text-muted"><small>Jackets & Coats</small></div>
+              <div class="lead">Open-front coat</div>
+              <p><small>120.00£</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-3">
+          <div class="card">
+            <img src="img/home-sec-one-category/2.jpg" class="card-img-top" alt="product 2">
+            <div class="card-body">
+              <div class="text-muted"><small>Jumpers & Cardigans</small></div>
+              <div class="lead">Cable knitted neck sweater</div>
+              <p><small>68.00£</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Section Two -->
+  <section class="featured-category py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+    
+        <div class="col-md-4 p-3 order-2 order-md-1">
+          <div class="card">
+            <img src="img/home-sec-two-category/1.jpg" class="card-img-top" alt="product 2">
+            <div class="card-body">
+              <div class="text-muted"><small>Jumpers & Cardigans</small></div>
+              <div class="lead">Cable knitted neck sweater</div>
+              <p><small>68.00£</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 order-3 order-md-2" style="padding: 5rem">
+          <div class="card">
+            <img src="img/home-sec-two-category/2.jpg" class="card-img-top" alt="product 1">
+            <div class="card-body">
+              <div class="text-muted"><small>Jackets & Coats</small></div>
+              <div class="lead">Open-front coat</div>
+              <p><small>120.00£</small></p>
+            </div>
+          </div>
+        </div>
+   
+        <div class="col-md-4 order-1 order-md-3">
+          <div class="section-caption">
+            <p class="fw-bold text-warning">New Arrival 2021</p>
+            <h2 class="display-6 fw-bold lh-1 mb-3">Soft & cozy sweatshirts</h1>
+            <h2 class="display-6 fw-bold lh-1 mb-3">from £ 98.99</h1>
+            <a href="#" class="btn btn-dark">Go Shopping ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-5 call-to-action-home">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-6 text-center">
+          <div class="call-to-action-home_box p-5">
+            <h2 class="display-6 fw-bold lh-1 mb-3">Let’s stay in touch</h2>
+            <p>Enjoy 15% off your first order when you join our mailing list.</p>
+
+            <form class="row g-3 justify-content-center">
+              <div class="col-auto">
+                <label for="email" class="visually-hidden">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-dark mb-3">Subscribe</button>
+              </div>
+            </form>
+            <p>We respect your privacy, so we never share your info.</p>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Products -->
+    <section class="py-5 popular-products bg-light">
+      <div class="container">
+        <h2 class="display-6 fw-bold lh-1 mb-3 text-center py-5">Our Popular Products</h2>
+        <div class="owl-carousel owl-theme">
+          <div> <img src="img/popular-products-slider/1.jpg" alt=""></div>
+          <div><img src="img/popular-products-slider/2.jpg" alt=""></div>
+          <div><img src="img/popular-products-slider/3.jpg" alt=""></div>
+          <div><img src="img/popular-products-slider/4.jpg" alt=""></div>
+          <div><img src="img/popular-products-slider/5.jpg" alt=""></div>
+          <div><img src="img/popular-products-slider/6.jpg" alt=""></div>
+          <div><img src="img/popular-products-slider/7.jpg" alt=""></div>
+          <div><img src="img/popular-products-slider/8.jpg" alt=""></div>
+          <div><img src="img/popular-products-slider/9.jpg" alt=""></div>
+          <div><img src="img/popular-products-slider/10.jpg" alt=""></div>
+          <div><img src="img/popular-products-slider/11.jpg" alt=""></div>
+          <div><img src="img/popular-products-slider/12.jpg" alt=""></div>
+          <div><img src="img/popular-products-slider/13.jpg" alt=""></div>
+          <div><img src="img/popular-products-slider/14.jpg" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+      <!-- Other Popular Categories -->
+      <section class="py-5 popular-categories">
+        <div class="container">
+          <h2 class="display-6 fw-bold lh-1 mb-3 text-center py-5">Other Popular Categories</h2>
+          <div class="row">
+            <div class="row g-2">
+              <div class="col-md-6">
+                <img src="img/popular-products-slider/13.jpg" class='img-fluid' alt="">
+                <div class="inner-caption text-light ps-3">
+                  <p class="fw-bold">OLD RAILWAY FASHION</p>
+                  <h2 class="display-6 fw-bold lh-1 mb-3">Summer<br>
+                    Glow Head To Toe</h2>
+                  <a href="#" class="btn btn-dark">Shop More ></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+              <img src="img/popular-products-slider/11.jpg" class='img-fluid' alt="">
+                <div class="inner-caption text-light ps-3">
+                  <p class="fw-bold">OLD RAILWAY FASHION</p>
+                  <h2 class="display-6 fw-bold lh-1 mb-3">Railway<br> Pro Hijab 
+                    Goes Global 
+                    </h2>
+                  <a href="#" class="btn btn-dark">Shop More ></a>
+                </div>
+            </div>
+
+            <div class="row g-2">
+              <div class="col-md-6">
+                <img src="img/popular-products-slider/12.jpg" class='img-fluid' alt="">
+                <div class="inner-caption text-light ps-3">
+                  <p class="fw-bold">OLD RAILWAY FASHION</p>
+                  <h2 class="display-6 fw-bold lh-1 mb-3">Exclusive <br>Spring
+                    Collection</h2>
+                  <a href="#" class="btn btn-dark">Shop More ></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+              <img src="img/popular-products-slider/5.jpg" class='img-fluid' alt="">
+                <div class="inner-caption text-dark ps-3 bg-light">
+                  <p class="fw-bold">OLD RAILWAY FASHION</p>
+                  <h2 class="display-6 fw-bold lh-1 mb-3">Personalize<br> 
+                    Perfect Fashion 
+                    Stylist</h2>
+                  <a href="#" class="btn btn-dark">Shop More ></a>
+                </div>
+            </div>
+            <div class="col-md-3">
+              <img src="img/popular-products-slider/9.jpg" class='img-fluid' alt="">
+                <div class="inner-caption text-dark ps-3 bg-light">
+                  <p class="fw-bold">OLD RAILWAY FASHION</p>
+                  <h2 class="display-6 fw-bold lh-1 mb-3">Unique <br>Collections 
+                    Galle</h2>
+                  <a href="#" class="btn btn-dark">Shop More ></a>
+                </div>
+            </div>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="py-5 mt-5 bg-light">
+        <div class="container">
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+            <div class="feature col text-center">
+              <div class="feature-icon">
+                <i class="bi bi-shop pe-2 text-warning" style="font-size: 2rem;"></i>              
+              </div>
+              <h3>Pics up at any Store</h3>
+              <p>Free shipping on orders over $65</p>
+            </div>
+            <div class="feature col text-center">
+              <div class="feature-icon">
+                <i class="bi bi-arrow-counterclockwise pe-2 text-warning" style="font-size: 2rem;"></i>
+              </div>
+              <h3>Free Returns</h3>
+              <p>30-days free return policy</p>
+            </div>
+            <div class="feature col text-center">
+              <div class="feature-icon">
+                <i class="bi bi-file-lock2 pe-2 text-warning" style="font-size: 2rem;"></i>
+              </div>
+              <h3>Secured Payments</h3>
+              <p>We accept all major credit cards</p>
+            </div>
+            <div class="feature col text-center">
+              <div class="feature-icon">
+                <i class="bi bi-question-circle pe-2 text-warning" style="font-size: 2rem;"></i>
+              </div>
+              <h3>Customer Service</h3>
+              <p>Top notch customer service</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <section class="py-5 bg-dark text-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h3 class="pb-3">Contact Info</h3>
+              <p>Phone:	<a href="tel:+94 (0) 77 880 9990">+94 (0) 77 880 9990</a></p>
+              <p>Address:  The Old Railway, <br>
+                #42 Havelock Road, <br>
+                Galle,8000</p>
+                <p><img src="img/payment.png" width="200px" class="img-fluid" alt=""></p>
+            </div>
+            <div class="col-md-4">
+              <h3 class="pb-3">Get Help</h3>
+              <p>Delivery Information</p>
+              <p>Returns & Refunds</p>
+              <p>Privacy Notice</p>
+              <p>Shopping FAQs</p>
+            </div>
+            <div class="col-md-4">
+              <h3 class="pb-3">Popular Categories</h3>
+              <p>Coats</p>
+              <p>Jeans</p>
+              <p>Tops</p>
+              <p>Sweaters</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
   <!-- Vendor JS Files -->
   <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
 
   <!-- Core JS File -->
   <script src="js/main.js"></script>
